@@ -64,7 +64,7 @@
       position: fixed; /* Set the navbar to fixed position */
       top: 0; /* Position the navbar at the top of the page */
       width: 100%; /* Full width */
-      padding: 10px 0 10px 0;
+
     }
     .navbar a {
       font-family: Oswald, monospace;
@@ -74,7 +74,9 @@
       color: #f2f2f2;
       text-align: center;
       text-decoration: none;
+      padding: 10px 0 10px 0;
       width: 25%;
+      transition: background 325ms ease;
     }
     .navbar a:hover {
       background: #ddd;
@@ -100,10 +102,17 @@
       color: white !important;
     }
     .button-box-blue {
-      text-align: left;
-      background-color: #0D71D6;
+      text-align: center;
+      background-color: #4CC9F5;
       padding: 4px 4px 4px 4px;
       margin: 0 5px 100px 5px;
+      color: white !important;
+      transition: background 350ms ease;
+    }
+
+    .button-box-blue:hover {
+      text-align: center;
+      background-color: #1E8DFE;
       color: white !important;
     }
 
@@ -195,7 +204,7 @@
             <div class="about-me-box">
               <img src="pictures/shiwei.jpeg" align="right" height="250px" style = "margin: 0 0 0 150px;">
 
-              <p>Hi, my name is Shiwei! I'm a Sophomore studying at Cupertino High School, having previously atteneded
+              <p>Hi, my name is Shiwei! I'm a Sophomore studying at Cupertino High School, having previously attended
                 Lord Byng Secondary in Vancouver, Canada. I'm interested in competitive programming, though I also have a passion for
               writing music. In my spare time, I enjoy writing letters, collecting CDs,
               and caring for my two shibas, Mugi and Tino. Nice to meet you! </p>

@@ -17,10 +17,8 @@
 
   <style>
     /* GENERAL */
-    a, a:hover, a:focus, a:active {
-    text-decoration: none;
-    color: inherit;
-}
+    a:link { text-decoration: none; }
+    a:visited { text-decoration: none; }
     body {
       margin: 0;
       width: 100vw;
@@ -130,7 +128,7 @@
       position: fixed; /* Set the navbar to fixed position */
       top: 0; /* Position the navbar at the top of the page */
       width: 100%; /* Full width */
-      padding: 10px 0 10px 0;
+
     }
     .navbar a {
       font-family: Oswald, monospace;
@@ -141,6 +139,8 @@
       text-align: center;
       text-decoration: none;
       width: 33.3%;
+      padding: 10px 0 10px 0;
+      transition: background 350ms ease;
     }
     .navbar a:hover {
       background: #ddd;
