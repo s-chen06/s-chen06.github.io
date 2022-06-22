@@ -75,7 +75,7 @@
       text-align: center;
       text-decoration: none;
       padding: 10px 0 10px 0;
-      width: 25%;
+      width: 20%;
       transition: background 325ms ease;
     }
     .navbar a:hover {
@@ -102,6 +102,13 @@
       color: white !important;
       transition: background 350ms ease;
     }
+
+    .button-box:hover {
+      text-align: center;
+      background-color: #D6280D;
+      color: white !important;
+    }
+
     .button-box-blue {
       text-align: center;
       background-color: #4CC9F5;
@@ -117,11 +124,6 @@
       color: white !important;
     }
 
-    .button-box:hover {
-      text-align: center;
-      background-color: #D6280D;
-      color: white !important;
-    }
 
     .section-divider {
       font-family: Oswald, tahoma, helvetica;
@@ -164,6 +166,11 @@
       margin: -35px 0 0 0;
     }
     .experience {
+      background-color: #FFA7A5;
+      min-height: auto;
+      margin: -35px 0 0 0;
+    }
+    .extracurricular {
       background-color: #FFE5AE;
       min-height: auto;
       margin: -35px 0 0 0;
@@ -198,7 +205,8 @@
   <body>
     <div class="navbar">
       <a href="#education">Education</a>
-      <a href="#experience">Extracurriculars</a>
+      <a href="#experience">Experience</a>
+      <a href="#extracurricular">Extracurriculars</a>
       <a href="#projects">Projects</a>
       <a href="#discography">Discography</a>
     </div>
@@ -274,17 +282,34 @@
             <div id = "experience" class="ender" style = "background-color: #AEE1FF"></div>
       </div>
 
+      <div class = "experience" id = "experience">
+        <div class="starter" style = "background-color: #FFA7A5"></div>
+            <h1 class="section-divider title-box" style = "background-color: #FFA7A5" Margin: 50px 0 0 0;>Experience</h1>
+            <div class="box">
+              <div>
+                <img src="pictures/tcs.png" align="left" height="40px">
+                <h3 style = "padding-left: 50px;"> Thecoderschool -- Code Coach [2022-Present]</h3>
+              </div>
+              <p>Lead Programming Instructor at Thecoderschool Cupertino. Led AP CS A class and taught course material to High School Students</p>
 
-      <div class="experience">
+              <a class="button-box footer-links" href="https://www.thecoderschool.com/locations/cupertino/" target = "_blank"
+              style = "font-family: Nanum Gothic"> <b>[Website]</b></a>
+            </div>
+            <div id = "extracurricular" class="ender" style = "background-color: #FFA7A5"></div>
+      </div>
+
+
+
+      <div class="extracurricular">
         <div class="starter" style = "background-color: #FFE5AE"></div>
         <h1 class = "section-divider" style = "background-color: #FFE5AE" >Extracurricular</h1>
 
         <div class="box">
           <div>
             <img src="pictures/usaco.png" align="left" height="30px">
-            <h3 style = "padding-left: 40px;">Gold-level Competitor -- USA Computing Olympiad [2020-2022]</h3>
+            <h3 style = "padding-left: 40px;">Gold-level Competitor -- USA Computing Olympiad [2020-Present]</h3>
           </div>
-          <p>Solved problemsets using classic and niche computing algorithms within 4 hour window; placed in the 12th percentile.</p>
+          <p>Solved problemsets using classic and niche computing algorithms within 4 hour window; placed in the 12th percentile</p>
           <p>Dynamic Programming, DFS/BFS, DSU, Djikstras, Kruskals, Segment Tree, Euler Tour Technique</p>
 
           <a class="button-box footer-links" href="http://usaco.org/" target = "_blank"
@@ -293,14 +318,16 @@
 
         <div class="box">
           <div>
-            <img src="pictures/vyso.jpeg" align="left" height="30px">
-            <h3 style = "padding-left: 40px"; >Cellist -- Vancouver Youth Symphony Orchestra [2016-2021]</h3>
+            <img src="pictures/sjys.png" align="left" height="30px">
+            <h3 style = "padding-left: 40px"; >Cellist -- San Jose Youth Symphony [2022-Present]</h3>
           </div>
-          <p>Second-seat Cellist at the Vancouver Youth Symphony Orchestra since 2016</p>
-          <p>Performed in various venues in British-Columbia, including the Chan-center, and Kay Meek Arts Center.</p>
-
-          <a class="button-box footer-links" href="https://www.vyso.com/" target = "_blank"
+          <p>Cellist at the San Jose Youth Symphony Chamber Orchestra</p>
+          <p>Performed in Bay Area venues to audience of 350-1000, participated in annual 5-day Overnight Camp at Santa Clara University</p>
+          <a class="button-box footer-links" href="https://www.sjys.org/" target = "_blank"
           style = "font-family: Nanum Gothic"> <b>[Website]</b></a>
+          <a class="button-box footer-links" href="https://www.sjys.org/chamber/" target = "_blank"
+          style = "font-family: Nanum Gothic"> <b>[Orchestra]</b></a>
+
         </div>
 
         <div class="box">
@@ -309,7 +336,7 @@
             <h3 style = "padding-left: 45px;">Director -- Vancouver Youth Model UN [2021]</h3>
           </div>
           <p> Wrote 2 background guides totalling 25 pages and 9,200 words, properly cited in MLA format and undergoing 2 full revisions
-          <p> Oversaw a committee of 16 over a 3 day Conference through 2 Resolution Papers, and a 2 hour morning crisis session. </p>
+          <p> Oversaw a committee of 16 over a 3 day Conference through 2 Resolution Papers, and a 2 hour morning crisis session </p>
           <a class="button-box footer-links" href="AC.pdf"
           target = "_blank" style = "font-family: Nanum Gothic"> <b>[Content]</b></a>
 
@@ -323,8 +350,8 @@
             <h3 style = "padding-left: 40px;">Club Founder -- Lord Byng LoL Club [2021]</h3>
           </div>
           <h3></h3>
-          <p>Managed ~40 members and 3 teams of six. Planned scrims, tryouts matches, and tournament logistics.</p>
-          <p>Played in after-school practice games, worked with sponsor teacher to select final roster members.</p> <br>
+          <p>Managed ~40 members and 3 teams of six. Planned scrims, tryouts matches, and tournament logistics</p>
+          <p>Played in after-school practice games, worked with sponsor teacher to select final roster members</p> <br>
         </div>
         <div id = "projects" class = "starter"> </div>
         <div class="ender" style = "background-color: #FFE5AE"></div>
@@ -341,7 +368,7 @@
             <h3 style = "padding-left: 40px">Japan Trip '25</h3>
           </div>
           <p>Self-made Itinerary containing plans for a month-long trip to Japan.
-            Accounts for logistics, and costs, and other general information.</p>
+            Accounts for logistics, and costs, and other general information</p>
 
             <a class="button-box footer-links" href="japan.pdf" target = "_blank"
             style = "font-family: Nanum Gothic"> <b>[Content]</b></a>
